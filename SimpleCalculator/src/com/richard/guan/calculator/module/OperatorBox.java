@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class OperatorBox {
 	private static OperatorBox Instance;
 	private HashMap<String, Operator> storage;
-	
 
 	static {
 		OperatorBox.getInstance().register(new PlusOperator());
@@ -28,7 +27,7 @@ public class OperatorBox {
 		this.storage.put(operator.getName(), operator);
 	}
 
-	public Operator getOperator(String name){
+	public Operator getOperator(String name) {
 		return this.storage.get(name);
 	}
 }

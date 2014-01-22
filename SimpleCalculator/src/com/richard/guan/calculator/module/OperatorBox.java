@@ -2,6 +2,8 @@ package com.richard.guan.calculator.module;
 
 import java.util.HashMap;
 
+import com.richard.guan.calculator.interfaces.Operator;
+
 public class OperatorBox {
 	private static OperatorBox Instance;
 	private HashMap<String, Operator> storage;

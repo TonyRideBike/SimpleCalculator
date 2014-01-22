@@ -1,7 +1,7 @@
 package com.richard.guan.calculator;
 
+import com.richard.guan.calculator.interfaces.Operator;
 import com.richard.guan.calculator.model.CalculatorData;
-import com.richard.guan.calculator.module.Operator;
 import com.richard.guan.calculator.module.OperatorBox;
 
 public class CalculatorTester {

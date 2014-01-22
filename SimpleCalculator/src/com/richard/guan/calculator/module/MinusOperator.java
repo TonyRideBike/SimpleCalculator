@@ -1,5 +1,6 @@
 package com.richard.guan.calculator.module;
 
+import com.richard.guan.calculator.interfaces.Operator;
 import com.richard.guan.calculator.model.CalculatorData;
 
 public class MinusOperator implements Operator {

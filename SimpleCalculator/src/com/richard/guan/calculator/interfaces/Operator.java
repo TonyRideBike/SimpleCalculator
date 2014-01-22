@@ -1,4 +1,4 @@
-package com.richard.guan.calculator.module;
+package com.richard.guan.calculator.interfaces;
 
 import com.richard.guan.calculator.model.CalculatorData;
 

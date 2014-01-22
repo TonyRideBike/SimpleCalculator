@@ -1,4 +1,4 @@
-package com.richard.guan.calculator.module;
+package com.richard.guan.calculator.operator;
 
 import java.util.ArrayList;
 

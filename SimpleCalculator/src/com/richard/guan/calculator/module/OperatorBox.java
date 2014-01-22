@@ -3,6 +3,8 @@ package com.richard.guan.calculator.module;
 import java.util.HashMap;
 
 import com.richard.guan.calculator.interfaces.Operator;
+import com.richard.guan.calculator.operator.MinusOperator;
+import com.richard.guan.calculator.operator.PlusOperator;
 
 public class OperatorBox {
 	private static OperatorBox Instance;
